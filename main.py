@@ -3,9 +3,9 @@ import psycopg2
 # Connect to the PostgreSQL database
 conn = psycopg2.connect(
     host="localhost",
-    database="prass", #Change to your Database Name
+    database="prass", 
     user="postgres", 
-    password="Addha17" #Change to your password
+    password="Addha17" 
 )
 
 # Open a cursor to perform database operations
